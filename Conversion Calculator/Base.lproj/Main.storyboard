@@ -80,6 +80,9 @@
                                                         <state key="normal" title="Converter">
                                                             <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
                                                         </state>
+                                                        <connections>
+                                                            <action selector="converter:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XzE-GY-ebv"/>
+                                                        </connections>
                                                     </button>
                                                 </subviews>
                                                 <constraints>
@@ -239,6 +242,10 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="inputDisplay" destination="U8Q-J6-iVO" id="fAQ-CO-KSa"/>
+                        <outlet property="outputDisplay" destination="mLc-jC-wM3" id="tZp-qX-bSU"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

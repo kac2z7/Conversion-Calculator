@@ -14,6 +14,7 @@
 		5331F2F31FB73CB400EB05F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5331F2F11FB73CB400EB05F1 /* LaunchScreen.storyboard */; };
 		5331F2FE1FB73CB400EB05F1 /* Conversion_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5331F2FD1FB73CB400EB05F1 /* Conversion_CalculatorTests.swift */; };
 		5331F3091FB73CB400EB05F1 /* Conversion_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5331F3081FB73CB400EB05F1 /* Conversion_CalculatorUITests.swift */; };
+		5331F3171FB7475900EB05F1 /* ConversionActionSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5331F3161FB7475800EB05F1 /* ConversionActionSheet.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		5331F3041FB73CB400EB05F1 /* Conversion CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Conversion CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5331F3081FB73CB400EB05F1 /* Conversion_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Conversion_CalculatorUITests.swift; sourceTree = "<group>"; };
 		5331F30A1FB73CB400EB05F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5331F3161FB7475800EB05F1 /* ConversionActionSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConversionActionSheet.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				5331F2E81FB73CB400EB05F1 /* AppDelegate.swift */,
+				5331F3161FB7475800EB05F1 /* ConversionActionSheet.swift */,
 				5331F2EA1FB73CB400EB05F1 /* ViewController.swift */,
 				5331F2EC1FB73CB400EB05F1 /* Main.storyboard */,
 				5331F2EF1FB73CB400EB05F1 /* Assets.xcassets */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5331F2EB1FB73CB400EB05F1 /* ViewController.swift in Sources */,
+				5331F3171FB7475900EB05F1 /* ConversionActionSheet.swift in Sources */,
 				5331F2E91FB73CB400EB05F1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
